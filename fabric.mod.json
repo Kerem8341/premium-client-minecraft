@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "premiumclient",
+  "version": "${version}",
+  "name": "Premium Client",
+  "description": "Base hunting utility client: base/stash finder, radar, ESP.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.premium.client.PremiumClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
